@@ -41,7 +41,7 @@ public class VIWHBleBase {
 
     /**
      * this function is used for init {@link VIWHBleBase}
-     * @param aBleDevice CPeripheral name, used for single device control(TODO)(CPeripheral 需改成 android 的對應)。
+     * @param aBleDevice CPeripheral name, used for single device control
      * @return 傳回自己(TODO)(是否需要? 還是回傳並不一定是VIWHBleBase?)。
      */
     public Object initWithDevice(String aBleDevice){
@@ -100,9 +100,9 @@ public class VIWHBleBase {
 
     /**
      * this function is used for disconnect device
-     * @param cb callback function (TODO)( 之後改成 Android 對應 iOS CBPeripheral的 class)
+     * @param peripheral device peripheral (TODO)( 之後改成 Android 對應 iOS CBPeripheral的 class)
      */
-    public void stopConnect(Object cb){
+    public void stopConnect(Object peripheral){
         return;
     }
 }

@@ -5,12 +5,6 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * callback interface is used for CentralManager (as Server)
- * 1. receiving BLE device scan result<br/>
- * 2. monitor BLE state change<br/>
- * 3. monitor connection state change<br/>
- *
- * merge 3 delegate: scanDeviceDelegate, deviceStateDelegate, connectionDelegate to ONE
  *
  * @author
  * @version 1.0.0
