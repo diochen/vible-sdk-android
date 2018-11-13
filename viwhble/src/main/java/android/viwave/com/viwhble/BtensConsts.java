@@ -9,7 +9,7 @@ public class BtensConsts {
         TREATMENT_STATE_STOP,
         TREATMENT_STATE_STARTED,
         TREATMENT_STATE_PAUSED
-    } ;
+    }
 
     /**
      * An enum.
@@ -22,7 +22,7 @@ public class BtensConsts {
         TREATMENT_MODE_3,
         TREATMENT_MODE_APP_DEFINED,
         TREATMENT_BIO_MODE
-    } ;
+    }
 
     /**
      * An enum.
@@ -32,7 +32,7 @@ public class BtensConsts {
         WAVE_FORM_SINE,
         WAVE_FORM_SQUARE,
         WAVE_FORM_UNIDIRECTION
-    };
+    }
 
     /**
      * An enum.
@@ -43,5 +43,5 @@ public class BtensConsts {
         DEVICE_STATUS_PARAMETER_SET,
         DEVICE_STATUS_PATCH_FALLOFF,
         DEVICE_STATUS_UNKNOWN_ERR
-    } ;
+    }
 }
