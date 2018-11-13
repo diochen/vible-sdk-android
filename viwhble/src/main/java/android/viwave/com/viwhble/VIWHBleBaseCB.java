@@ -67,7 +67,7 @@ public interface VIWHBleBaseCB {
      * @param peripheral BLE device peripheral instance (TODO)(需換成 android 對應於 CBPeripheral 的 class)
      * @param error If an error occurred, the cause of the failure.
      */
-    void connectedBleFail(Object peripheral, String error);
+    void connectedBleFail(Object peripheral, Error error);
 
 
     /**
@@ -75,7 +75,7 @@ public interface VIWHBleBaseCB {
      * @param peripheral BLE device peripheral instance (TODO)(需換成 android 對應於 CBPeripheral 的 class)
      * @param error If an error occurred, the cause of the failure.
      */
-    void didDisconnectPeripheral(Object peripheral, String error);
+    void didDisconnectPeripheral(Object peripheral, Error error);
 
 
     /**
